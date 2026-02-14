@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Portfolio</title>
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ✅ Bootstrap Icons (for social icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- ✅ Small Custom CSS -->
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+    .hero-section{
+      background: linear-gradient(to right, #111, #2b2b2b);
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+    }
+    .section-title{
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    .card{
+      border: none;
+      border-radius: 18px;
+    }
+    .card img{
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+    }
+    .shadow-soft{
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+    .social-btn{
+      width: 48px;
+      height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ✅ NAVBAR START -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="#home">Limmana Nithya Sri</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+          <!-- ✅ Resume Button -->
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a class="btn btn-warning fw-bold" href="resume.pdf" download>
+              <i class="bi bi-download"></i> Resume
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- ✅ NAVBAR END -->
+
+
+  <!-- ✅ HERO SECTION START -->
+  <section class="hero-section text-white py-5" id="home">
+    <div class="container py-5">
+      <div class="row align-items-center">
+
+        <div class="col-md-6 text-center text-md-start">
+          <h1 class="display-4 fw-bold">
+            Hi, I'm <span class="text-warning">Limmana Nithya Sri</span> 👋
+          </h1>
+
+          <p class="lead mt-3">
+            I’m a beginner Web Developer learning HTML, CSS, JavaScript and Bootstrap.
+          </p>
+
+          <!-- ✅ Social Icons -->
+          <div class="mt-4">
+            <a class="btn btn-outline-light social-btn me-2" href="https://github.com/LimmanaNithyasri/" target="_blank">
+              <i class="bi bi-github"></i>
+            </a>
+
+            <a class="btn btn-outline-light social-btn me-2" href="https://linkedin.com/" target="_blank">
+              <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a class="btn btn-outline-light social-btn" href="mailto:limmannanithyasri@gmail.com">
+              <i class="bi bi-envelope-fill"></i>
+            </a>
+          </div>
+
+          <div class="mt-4">
+            <a href="#projects" class="btn btn-warning btn-lg me-2">View Projects</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg">Contact</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 text-center mt-4 mt-md-0">
+          <img src="nithya.jpeg"
+               class="img-fluid rounded-circle shadow-soft"
+               alt="profile">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ✅ HERO SECTION END -->
+
+
+  <!-- ✅ ABOUT SECTION START -->
+  <section class="py-5 bg-light" id="about">
+    <div class="container">
+
+      <h2 class="text-center section-title mb-4">About Me</h2>
+
+      <div class="row align-items-center g-4">
+
+        <div class="col-md-5 text-center">
+          <img src="nithya.jpeg"
+               class="img-fluid rounded shadow-soft"
+               alt="about">
+        </div>
+
+        <div class="col-md-7">
+          <div class="card shadow-soft">
+            <div class="card-body p-4">
+
+              <h4 class="fw-bold">Hello! 👋</h4>
+
+              <p class="mt-3">
+                I am a passionate beginner web developer. I enjoy building simple,
+                clean, and responsive websites using Bootstrap.
+              </p>
+
+              <p>
+                My goal is to become a frontend developer and create modern websites
+                with great UI design.
+              </p>
+
+              <a href="#contact" class="btn btn-dark">Hire Me</a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ✅ ABOUT SECTION END -->
+
+
+  <!-- ✅ SKILLS SECTION START -->
+  <section class="py-5" id="skills">
+    <div class="container">
+
+      <h2 class="text-center section-title mb-4">Skills</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+
+          <div class="card shadow-soft">
+            <div class="card-body p-4">
+
+              <h6 class="fw-bold">HTML</h6>
+              <div class="progress mb-3" style="height: 18px;">
+                <div class="progress-bar bg-warning" style="width: 85%;">85%</div>
+              </div>
+
+              <h6 class="fw-bold">CSS</h6>
+              <div class="progress mb-3" style="height: 18px;">
+                <div class="progress-bar bg-dark" style="width: 75%;">75%</div>
+              </div>
+
+              <h6 class="fw-bold">JavaScript</h6>
+              <div class="progress mb-3" style="height: 18px;">
+                <div class="progress-bar bg-success" style="width: 60%;">60%</div>
+              </div>
+
+              <h6 class="fw-bold">Bootstrap</h6>
+              <div class="progress" style="height: 18px;">
+                <div class="progress-bar bg-primary" style="width: 80%;">80%</div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ✅ SKILLS SECTION END -->
+
+
+  <!-- ✅ PROJECTS SECTION START -->
+  <section class="py-5 bg-light" id="projects">
+    <div class="container">
+
+      <h2 class="text-center section-title mb-4">My Projects</h2>
+
+      <div class="row g-4">
+
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card shadow-soft h-100">
+            <img src="gt.jpeg" class="card-img-top" alt="project 1">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">movie info card</h5>
+              <p class="card-text">
+                A web project where users can click buttons to view short details of the movies this info site built with html, css, javascript showing dynamic content for popular films
+              </p>
+
+              <div class="d-flex gap-2">
+                <a href="https://example.com" target="_blank" class="btn btn-dark w-50">
+                  Live
+                </a>
+                <a href="https://github.com/LimmanaNithyasri/Movie_info_card" target="_blank" class="btn btn-outline-dark w-50">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card shadow-soft h-100">
+            <img src="cd.jpeg" class="card-img-top" alt="project 2">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">movie trailer info webpage</h5>
+              <p class="card-text">
+                This project is a simple and responsive Movie Details Web Page created using HTML and CSS. It displays important information about the Telugu movie Hi Nanna in a clean two-column layout.
+              </p>
+
+              <div class="d-flex gap-2">
+                <a href="https://example.com" target="_blank" class="btn btn-dark w-50">
+                  Live
+                </a>
+                <a href="https://github.com/LimmanaNithyasri/movie_trailer_info_webpage" target="_blank" class="btn btn-outline-dark w-50">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card shadow-soft h-100">
+            <img src="ef.jpeg" class="card-img-top" alt="project 3">
+            <div class="card-body">
+              <h5 class="card-title fw-bold"> Room light toggle</h5>
+              <p class="card-text">
+                About
+A simple interactive Room Light On/Off web application built using HTML, CSS, and JavaScript. This project demonstrates basic DOM manipulation by dynamically changing the bulb image and background color to simulate a real-world light switch.
+              </p>
+
+              <div class="d-flex gap-2">
+                <a href="https://example.com" target="_blank" class="btn btn-dark w-50">
+                  Live
+                </a>
+                <a href="https://github.com/LimmanaNithyasri/room-light-toggle" target="_blank" class="btn btn-outline-dark w-50">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ✅ PROJECTS SECTION END -->
+
+
+  
+
+  <!-- ✅ CONTACT SECTION START -->
+  <section class="py-5 bg-light" id="contact">
+    <div class="container">
+
+      <h2 class="text-center section-title mb-4">Contact Me</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+
+          <div class="card shadow-soft">
+            <div class="card-body p-4">
+
+              <form>
+                <div class="mb-3">
+                  <label class="form-label">Your Name</label>
+                  <input type="text" class="form-control" placeholder="Enter your name">
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Your Email</label>
+                  <input type="email" class="form-control" placeholder="Enter your email">
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Message</label>
+                  <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-dark w-100">
+                  Send Message
+                </button>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ✅ CONTACT SECTION END -->
+
+
+  <!-- ✅ FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2026 John Doe | Built with Bootstrap</p>
+  </footer>
+
+
+  <!-- ✅ Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
