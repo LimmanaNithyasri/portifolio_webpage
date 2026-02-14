@@ -44,9 +44,10 @@ This project is built using:
 ### 📊 About / Skills / Projects Section
 ![Portfolio Screenshot 2](https://github.com/user-attachments/assets/b06a3dc8-d97c-4325-ad11-961eb5844129)
 
-![Portfolio Screenshot 3](https://github.com/user-attachments/assets/bf3a07fe-fa9f-4745-9e3d-7746099f9c5a)
+<img width="1173" height="642" alt="image" src="https://github.com/user-attachments/assets/e28a118f-eb5c-4af6-a41c-6b078b5c4292" />
 
-![Portfolio Screenshot 4](https://github.com/user-attachments/assets/ba48e758-5739-4129-93b2-a3302e16e836)
+<img width="598" height="382" alt="image" src="https://github.com/user-attachments/assets/05748ad8-4be6-4821-a342-4a889bc074fe" />
+
 
 ---
 
