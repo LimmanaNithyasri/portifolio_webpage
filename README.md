@@ -5,12 +5,6 @@ This is my **Personal Portfolio Website** built with HTML, CSS, JavaScript, and 
 
 It showcases who I am, what I can do, and my completed frontend projects.
 
----
-
-## 🚀 Live Demo
-
-🔗 Live Website: *(Add your deployed link here — e.g., GitHub Pages / Netlify / Vercel)*  
-💻 GitHub Repo: https://github.com/LimmanaNithyasri
 
 ---
 
@@ -89,15 +83,7 @@ portfolio/
 - ✅ Resume download button  
 - ✅ Social link buttons  
 
----
 
-## 📬 Contact Me
-
-If you’d like to work with me or have questions:
-
-📧 Email: limmannanithyasri@gmail.com  
-🐙 GitHub: https://github.com/LimmanaNithyasri  
-💼 LinkedIn: *(Add LinkedIn URL here)*  
 
 ---
 
